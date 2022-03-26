@@ -25,6 +25,10 @@ Nuxt 3 is not production ready yet !
 * TV show API [TV maze](https://www.tvmaze.com/api)
 * CSS framework [Tailwind CSS](https://tailwindcss.com/)
 
+## Screenshots
+
+![Home page screenshot](assets/img/md/site-home.png "Home page")
+![Search for show page screenshot](assets/img/md/site-search.png "Search for show page")
 
 ## Information
 
@@ -32,10 +36,6 @@ Inspired by this video : https://www.youtube.com/watch?v=pIrL2Nnjvbk
 
 I used Node js version 16.14.0.
 
-
 Sometimes loading can take some seconds because of tvmaze API and it's limited to 20 requests every 10 seconds !
-
-Next step I will implement css with TailwindCSS and make some screenshots from this app.
-And improve a little bit the display of web pages.
 
 PS: no need to use server/api in reality you can call directly the API tv maze with corresponding urls.
