@@ -1,16 +1,13 @@
 <template>
-    <header>
-        Header
-        <ul>
-            <li>
-                <NuxtLink to="/">Home</NuxtLink>
-            </li>
-            <li>
-                <NuxtLink to="/shows">TV Show search</NuxtLink>
-            </li>
-            <li>
-                <NuxtLink to="/people">People search</NuxtLink>
-            </li>
-        </ul>
+    <header class="bg-indigo-700">
+        <BaseNav>
+            <BaseNavItem v-for="item in navItems" :key="item.id" :href="item.href" :isActive="item.active">
+                {{ item.name }}
+            </BaseNavItem>
+        </BaseNav>
     </header>
 </template>
+
+<script setup lang="ts">
+const navItems = useNavItems()
+</script>
